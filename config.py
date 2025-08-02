@@ -35,9 +35,6 @@ CDB_NAME = environ.get("CDB_NAME", "cloneSpidey")
 DB_URI = environ.get("DB_URI", "mongodb+srv://Soldier:QTo6GiCGk4xQTRRw@cluster0.igba5fh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "spideyofficial")
 
-# Auto Delete Information
-AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
-
 # If Auto Delete Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 AUTO_DELETE = int(environ.get("AUTO_DELETE", "15")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
